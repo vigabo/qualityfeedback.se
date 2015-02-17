@@ -1,0 +1,12 @@
+baseurl = "http://www.qualityfeedback.se"
+title = "Quality Feedback"
+canonifyurls = true
+paginate = 10
+languageCode = "sv-SE"
+builddrafts = true
+disqusShortname = "qualityfeedback"
+
+[params]
+  DateForm = "Mon, January 2, 2006"
+  email = "hello@qualityfeedback.se"
+  Ganalytics = "UA-66205660-2"

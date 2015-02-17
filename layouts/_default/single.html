@@ -1,0 +1,13 @@
+{{ partial "header.html" .}}
+<div id="page">
+  <div id="container" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h1>{{ title .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" .}}
