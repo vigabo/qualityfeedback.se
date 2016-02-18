@@ -1,0 +1,17 @@
+<article class="blog summary">
+    <header>
+        <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+        <div class="date muted">Av {{ .Params.author }} den {{ .Date.Format "2 jan 2006" }}</div>
+    </header>
+    <p>
+        {{ .Summary }}
+    </p>
+    <ul class="tags list-inline">
+        {{ range .Params.tags }}
+        <li><a class="label label-default" href="/tags/{{ . | urlize }}">{{ . }}</a> </li>
+        {{ end }}
+    </ul>
+    <div class="read-more">
+        <a href='{{ .Permalink }}'><nobr>Läs mer →</nobr></a>
+    </div>
+</article>
