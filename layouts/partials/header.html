@@ -21,9 +21,9 @@
   </script>
 </head>
 
-<body id="{{ if eq .Url "/" }}home{{ else }}blog{{end}}">
+<body id="{{ if eq .URL "/" }}home{{ else }}blog{{end}}">
   <div class="m-navbar-my">
-    <nav class="navbar navbar-fixed-top {{ if not (eq .Url "/") }}navbar-custom top-nav-collapse {{ end }}" role="navigation">
+    <nav class="navbar navbar-fixed-top {{ if not (eq .URL "/") }}navbar-custom top-nav-collapse {{ end }}" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
