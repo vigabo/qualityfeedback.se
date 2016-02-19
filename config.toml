@@ -1,6 +1,6 @@
 baseurl = "http://www.qualityfeedback.se"
 title = "Quality Feedback"
-canonifyurls = true
+canonifyurls = false
 paginate = 10
 languageCode = "sv-SE"
 builddrafts = true
