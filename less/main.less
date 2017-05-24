@@ -1,0 +1,20 @@
+@iqi-clr-muted: #bdc3c7;
+
+.swap-text-color(@color) {
+  color: @color;
+  a&:hover, a&:focus { color: mix(@color, black, 80%); }
+}
+
+.muted        { .swap-text-color(@iqi-clr-muted) }
+
+
+@media(min-width: @screen-sm){
+    #page {
+	margin: 80px 0px 60px;
+    }
+}
+@media(max-width: @screen-sm-max){
+    #page {
+	margin: 50px 0px 60px;
+    }
+}
