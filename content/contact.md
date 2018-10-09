@@ -10,10 +10,11 @@ hello@qualityfeedback.se
 
 **Sociala medier**
 
-[Facebook](https://www.facebook.com/vigabo/)
+* [Facebook](https://www.facebook.com/vigabo/)
+* [LinkedIn](https://www.linkedin.com/company/vigabo-ab/)
 
 **Adress:**
 
-Vigabo AB,
-Föreningsgatan 65A,
-21152 Malmö
+Vigabo AB<br/>
+Bäcklöparvägen 4<br/>
+142 64 Trångsund

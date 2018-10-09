@@ -1,0 +1,54 @@
+/* ==========================================================================
+Main SCSS file / Fresh
+========================================================================== */
+
+//Imports
+
+@import "logo";
+@import "hero-bg";
+
+
+@import 'partials/colors';
+@import 'partials/navbar';
+@import 'partials/dropdowns';
+@import 'partials/sections';
+@import 'partials/hero';
+@import 'partials/footer';
+@import 'partials/buttons';
+@import 'partials/cards';
+@import 'partials/forms';
+@import 'partials/animations';
+@import 'partials/sidebar';
+@import 'partials/testimonials';
+@import 'partials/responsive';
+@import 'partials/utils';
+
+.index-section {
+    margin: 100px 0;
+    text-align: center;
+
+    max-width: 1100px;
+    padding: 0 15px;
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #145869;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+        font-weight: bold;
+        color: $iqi-clr-purple;
+        max-width: 400px; 
+    }
+
+    p {
+        max-width: 600px;
+        line-height: 1.8;
+        margin-bottom: 16px;
+    }
+}

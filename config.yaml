@@ -1,0 +1,19 @@
+baseURL: http://www.qualityfeedback.se
+languageCode: sv-SE
+title: Quality Feedback
+canonifyurls: false
+paginate: 10
+builddrafts: true
+disqusShortname: qualityfeedback
+
+params:
+  DateForm: "Mon, January 2, 2006"
+  email: "hello@qualityfeedback.se"
+  Ganalytics: "UA-66205660-2"
+
+  navbar:
+  - title: Logga in
+    url: /
+  - title: Boka demo
+    url: /
+    button: true

@@ -16,15 +16,10 @@
     "url": "https://github.com/vigabo/qualityfeedback.se/issues"
   },
   "homepage": "https://github.com/vigabo/qualityfeedback.se#readme",
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.4.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-less": "^3.3.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^3.0.0",
-    "jquery": "^3.2.1",
-    "jquery.easing": "^1.4.1"
+  "devDependencies": {},
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "bulma": "^0.7.1",
+    "postcss-cli": "^6.0.0"
   }
 }

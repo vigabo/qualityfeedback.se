@@ -1,26 +1,46 @@
-    <script src="/static/www.min.js"></script>
-    {{ if .IsNode }}
-    <script>
-    //jQuery to collapse the navbar on scroll
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 100) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-        } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        }
-    });
+<footer class="footer footer-dark">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <a alt="Vigabo AB" href="http://www.vigabo.com" target="_blank"><img src="/static/img/vigabo-logo-ab.png"></a>
+            </div>
+            <div class="column">
+                <div class="footer-column">
+                    <div class="footer-header">
+                        <h3>Lär dig mer</h3>
+                    </div>
+                    <ul class="link-list">
+                        <li><a href="/om/">Om Quality Feedback</a></li>
+                        <li><a href="/faq/">FAQ</a></li>
+                        <li><a href="/contact/">Kontakta oss</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="footer-column">
+                    <div class="footer-header">
+                        <h3>Länkar</h3>
+                    </div>
+                    <ul class="link-list">
+                        <li><a href="/villkor">Användarvillkor</a></li>
+                        <li><a href="/policy">Integritetspolicy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="footer-column">
+                    <div class="footer-header">
+                        <h3>Följ oss</h3>
+                    </div>
+                    <ul class="link-list">
+                        <li><a href="https://github.com/vigabo/" target="_blank">Github</a></li>
+                        <li><a href="https://www.linkedin.com/company/vigabo-ab/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/vigabo/" target="_blank">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</footer>
+</body>
 
-    //jQuery for page scrolling feature - requires jQuery Easing plugin
-    $(function() {
-        $('.page-scroll a').bind('click', function(event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
-            }, 1500, 'easeInOutExpo');
-            event.preventDefault();
-        });
-    });
-    </script>
-    {{ end }}
-  </body>
 </html>

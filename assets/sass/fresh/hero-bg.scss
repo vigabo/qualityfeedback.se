@@ -1,0 +1,65 @@
+.hero-bg {
+    color: white;
+    position: relative;
+    padding: 64px 0;
+}
+
+@mixin hero-background($filename) {
+    background: url(/static/img/#{$filename});
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-bg1 { @include hero-background("hero/fancycrave-254187-unsplash.jpg"); }
+.hero-bg2 { @include hero-background("hero/juan-fernandez-676195-unsplash.jpg"); }
+.hero-bg3 { @include hero-background("hero/rawpixel-740327-unsplash.jpg"); }
+.hero-bg4 { @include hero-background("hero/rawpixel-741689-unsplash.jpg"); }
+.hero-bg5 { @include hero-background("hero/rawpixel-777268-unsplash.jpg"); }
+.hero-bg6 { @include hero-background("hero/rhema-kallianpur-275251-unsplash.jpg"); }
+.hero-bg7 { @include hero-background("hero/trust-tru-katsande-592917-unsplash.jpg"); }
+.hero-bg8 { @include hero-background("hero/viktor-kern-65655-unsplash.jpg"); }
+
+.hero-company { @include hero-background("berkeley-communications-650145-unsplash.jpg"); }
+.hero-customer { @include hero-background("rawpixel-651370-unsplash.jpg"); }
+
+
+.hero-text-box {
+    max-width: 1100px;
+    padding: 0 15px;
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: right;
+    padding: 0 12px 64px 12px;
+}
+
+.hero-text-box-left {
+    margin-left: 0;
+}
+
+.hero-text-contents {
+    max-width: 500px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    grid-area: text;
+    background-color: rgba(#000, 0.5);
+    padding: 20px;
+
+    h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    p {
+        line-height: 1.5;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+
+    a {
+        color: #fff;
+    }
+}
