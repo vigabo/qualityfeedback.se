@@ -15,5 +15,5 @@ params:
   - title: Logga in
     url: /
   - title: Boka demo
-    url: /
+    url: https://goo.gl/forms/MPNwbu6ioRM4Ceny2
     button: true
