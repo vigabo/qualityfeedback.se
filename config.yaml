@@ -1,4 +1,5 @@
-baseURL: http://www.qualityfeedback.se
+baseURL: ""
+relativeurls = true
 languageCode: sv-SE
 title: Quality Feedback
 canonifyurls: false
